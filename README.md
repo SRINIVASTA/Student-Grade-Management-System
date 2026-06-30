@@ -25,7 +25,7 @@ A hybrid, lightweight analytical dashboard that bridges a low-level native **C P
 
 ### Cloud Deployment (Streamlit Community Cloud)
 1. Commit all four project files directly into a public **GitHub Repository**.
-2. Log into [Streamlit Community Cloud](https://streamlit.io) using your GitHub workspace profile credentials.
+2. Log into [Streamlit Community Cloud](https://student-grade-management-system-2gszzyl39cbgt7pr9sfteq.streamlit.app/) using your GitHub workspace profile credentials.
 3. Click **New app**, select your repository name, configure your deployment branch to `main`, and explicitly assign the main file path to `app.py`.
 4. Click **Deploy!** The server container will automatically identify `packages.txt` to install the C development environment before loading your web interface link.
 
