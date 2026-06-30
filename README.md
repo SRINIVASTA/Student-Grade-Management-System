@@ -18,7 +18,6 @@ A hybrid, lightweight analytical dashboard that bridges a low-level native **C P
 1. **On-Demand Compilation:** When a user interacts with the web interface, Python triggers the Linux `gcc` compiler to bundle `project.c` into an optimized machine binary (`backend`).
 2. **Data Streaming:** The binary executes natively on the host server instance. It computes mathematical averages using static structures and streams out a standardized CSV formatting table to the system shell console.
 3. **Reactive UI Interception:** Python catches the live text output stream via a secure `subprocess` data pipeline, deserializes it into memory as a Pandas Dataframe, and displays interactive analytical metric blocks.
-
 ---
 
 ## 🛠️ Deployment Instructions
